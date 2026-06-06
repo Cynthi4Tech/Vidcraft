@@ -1,0 +1,55 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.swc
+frontend/dist/
+frontend/.vercel
+frontend/.turbo
+
+# Backend
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.venv/
+backend/venv/
+backend/env/
+backend/*.egg-info/
+backend/dist/
+backend/build/
+backend/.DS_Store
+backend/*.pyc
+
+# Database
+database/migrations/*.sql~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Video files (temporary)
+*.mp4
+*.avi
+*.mov
+output/
+tmp/
